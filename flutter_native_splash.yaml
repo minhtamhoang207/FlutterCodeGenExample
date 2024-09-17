@@ -1,0 +1,7 @@
+flutter_native_splash:
+  android: true
+  ios: true
+  color: "#FFFFFF"
+  image: assets/yellow_cat.png
+  android_12:
+    image: assets/yellow_cat.png

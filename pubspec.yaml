@@ -1,0 +1,71 @@
+name: code_gen_example
+description: "Rikkei seminar"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: any
+  equatable: any
+  flutter_bloc: any
+
+  # Json serialization
+  json_annotation: any
+
+  # Freezed
+  freezed_annotation: any
+
+  # Retrofit
+  retrofit: any
+
+  # GetIt
+  get_it: any
+  # Injectable
+  injectable: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  build_runner: any
+
+  # Json serialization
+  json_serializable: any
+
+  # Freezed
+  freezed: any
+
+  # Retrofit
+  retrofit_generator: any
+
+  # Injectable
+  injectable_generator: any
+
+  # Assets
+  flutter_gen_runner: any
+
+  # copy_with_extension
+  copy_with_extension_gen: any
+
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_gen:
+  output: lib/assets_gen_example/
+  assets:
+    enable: true
+  font:
+    enable: true
